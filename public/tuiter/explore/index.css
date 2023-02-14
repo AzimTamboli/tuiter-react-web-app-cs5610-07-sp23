@@ -94,3 +94,28 @@
     border-style: solid;
     border-width: thin;
 }
+
+.wd-round {
+    border-radius: 50%;
+}
+
+.wd-handle {
+    font-size: 14px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-img-rounded-corner {
+    border-radius: 20%;
+}
+
+.wd-width-full {
+    width:100%;
+}
+
+.wd-background-grey {
+    background-color: #F5F5F5;
+}
+
+.wd-remove-border {
+    border:0 none;
+}
