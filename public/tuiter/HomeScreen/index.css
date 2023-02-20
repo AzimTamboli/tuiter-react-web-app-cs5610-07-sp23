@@ -1,0 +1,15 @@
+.wd-gray-text {
+    color:#A9A9A9;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}
+
+.wd-round {
+    border-radius: 15%;
+}
+
+.wd-round-50 {
+    border-radius: 50%;
+}
