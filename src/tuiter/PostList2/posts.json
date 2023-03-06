@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 123,
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "23h",
+    "avatarIcon": "/images/elonavatar.jpg",
+    "title": "Amazing show about the @inspiration4x mission!",
+    "image": "/images/elonmuskPost.jpg",
+    "contentTitle": "Most news outlets attempt to answer the question: What are the worst things happening on Earth today?",
+    "content": "It’s a big planet! Obviously, some bad things are happening somewhere at any given time, but focusing relentlessly on those does not give an accurate picture of reality.",
+    "comments": "10K",
+    "likes": "34.5K",
+    "retuits": "100"
+  },
+  {
+    "_id": 124,
+    "userName": "New York Post",
+    "handle": "nypost",
+    "time": "24h",
+    "avatarIcon": "/images/nypostavatar.png",
+    "title": "Can`t sleep? Try these foods for a good night snooze https://trib.al/ZwVvTN4",
+    "image": "/images/nycpost.jpg",
+    "contentTitle": "",
+    "content": "",
+    "comments": "15K",
+    "likes": "5.5K",
+    "retuits": "534"
+  }
+]

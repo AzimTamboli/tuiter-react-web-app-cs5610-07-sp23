@@ -1,0 +1,17 @@
+.wd-tabs-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}
+
+.wd-white-text {
+    color:white;
+}
+
+.wd-gray-text {
+    color:#A9A9A9;
+}

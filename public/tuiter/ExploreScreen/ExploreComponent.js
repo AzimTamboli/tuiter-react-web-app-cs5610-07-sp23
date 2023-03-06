@@ -33,7 +33,7 @@ const ExploreComponent = () => {
         </ul>
 
         <div>
-            <img class="mt-1" width="100%" height="400px" src="../images/spacex.png">
+            <img class="mt-1" width="100%" height="400px" src="../../images/spacex.png">
         </div>
         
         ${PostSummaryList("90px", "80px")}
