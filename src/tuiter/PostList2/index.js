@@ -1,5 +1,6 @@
 import PostListItem from "./PostListItem";
 import posts from "./posts.json";
+import 'font-awesome/css/font-awesome.min.css';
 
 const PostList = () => {
     return (

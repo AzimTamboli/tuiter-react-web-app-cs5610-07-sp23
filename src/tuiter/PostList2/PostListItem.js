@@ -1,5 +1,5 @@
 import "./index.css";
-
+import 'font-awesome/css/font-awesome.min.css';
 const PostListItem = (
     {
         post = {
@@ -70,7 +70,7 @@ const PostListItem = (
                     <div className="ms-2 row">
                         <div className="p-2 pe-4 wd-float-left col-3">
                             <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
-                                className="me-2 fa-regular fa-comment"></i>{post.comments}</div>
+                                className="me-2 bi bi-chat"></i>{post.comments}</div>
                         </div>
                         <div className="p-2 pe-4 wd-float-left col-3">
                             <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
@@ -78,11 +78,11 @@ const PostListItem = (
                         </div>
                         <div className="p-2 pe-4 wd-float-left col-3">
                             <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
-                                className="me-2 fa-solid fa-heart"></i>{post.likes}</div>
+                                className="me-2 bi bi-heart"></i>{post.likes}</div>
                         </div>
                         <div className="p-2 pe-4 wd-float-left col-3">
                             <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
-                                className="me-2 fa-solid fa-arrow-up-from-bracket"></i></div>
+                                className="me-2 bi bi-share"></i></div>
                         </div>
                     </div>
                 </div>
