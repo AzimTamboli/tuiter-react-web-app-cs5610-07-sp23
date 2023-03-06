@@ -69,20 +69,20 @@ const PostListItem = (
                 <div className="col-11">
                     <div className="ms-2 row">
                         <div className="p-2 pe-4 wd-float-left col-3">
-                            <a className="wd-tabs-link wd-no-underline wd-gray-text" href="#"><i
-                                className="me-2 fa-regular fa-comment"></i>{post.comments}</a>
+                            <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
+                                className="me-2 fa-regular fa-comment"></i>{post.comments}</div>
                         </div>
                         <div className="p-2 pe-4 wd-float-left col-3">
-                            <a className="wd-tabs-link wd-no-underline wd-gray-text" href="#"><i
-                                className='me-2 fa fa-retweet'></i>{post.retuits}</a>
+                            <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
+                                className='me-2 fa fa-retweet'></i>{post.retuits}</div>
                         </div>
                         <div className="p-2 pe-4 wd-float-left col-3">
-                            <a className="wd-tabs-link wd-no-underline wd-gray-text" href="#"><i
-                                className="me-2 fa-solid fa-heart"></i>{post.likes}</a>
+                            <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
+                                className="me-2 fa-solid fa-heart"></i>{post.likes}</div>
                         </div>
                         <div className="p-2 pe-4 wd-float-left col-3">
-                            <a className="wd-tabs-link wd-no-underline wd-gray-text" href="#"><i
-                                className="me-2 fa-solid fa-arrow-up-from-bracket"></i></a>
+                            <div className="wd-tabs-link wd-no-underline wd-gray-text"><i
+                                className="me-2 fa-solid fa-arrow-up-from-bracket"></i></div>
                         </div>
                     </div>
                 </div>

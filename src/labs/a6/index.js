@@ -5,9 +5,6 @@ import ConditionalOutput
     from "./conditional-output";
 
 import TodoList from './todo/todo-list'
-import PostList from "../../tuiter/PostList2";
-import PostList2 from "../../tuiter/PostList2";
-import ExploreComponent from "../../tuiter/explore";
 import PostSummaryItem from "../../tuiter/post-summary-list";
 function Assignment6() {
     return (
