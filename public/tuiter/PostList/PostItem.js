@@ -3,7 +3,7 @@ const PostItem = (post) => {
         <li class="list-group-item pt-3">
             <div class="row">
                 <div class="col-1">
-                    <img class="wd-round-50" width="50px" height="50px" src=${post.avatarIcon}>
+                    <img class="wd-round-50" width="50px" height="50px" src=${post.avatarIcon}/>
                 </div>
                 <div class="col-11">
                     <div class="ps-1">
@@ -17,6 +17,7 @@ const PostItem = (post) => {
                             <div class="col-1 ms-4">
                                 <i class="fa-solid fa-ellipsis wd-float-left"></i>
                             </div>
+                        </div>
                     </div>
                     <div class="ps-1">
                         <span>${post.title}</span>
@@ -29,7 +30,7 @@ const PostItem = (post) => {
                 
                 <div class="col-11">
                     <div class="card mt-4 border-secondary" style="width: 100%;">
-                        <img src=${post.image} class="card-img-top rounded-top" alt="...">
+                        <img src=${post.image} class="card-img-top rounded-top" alt="..."/>
                         ${post.contentTitle === "" ? '': `
                             <div class="card-body">
                                 <span class="card-title" style="font-size: 14pt;">${post.contentTitle}</span>

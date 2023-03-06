@@ -7,9 +7,8 @@ const PostSummaryList = () => {
     return(
         <ul className="list-group">
             {
-                postsArray.map(post =>
-                    <postItems key={post._id}
-                               post={post}/> )
+                postsArray.map(Item =>
+                    <PostSummaryItem key={Item._id} post={Item}/> )
             }
 
         </ul>
