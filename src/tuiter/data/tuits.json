@@ -1,0 +1,37 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "contentTitle": "New Invention",
+    "image": "/images/spacex.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "reshares": 45,
+    "likes": 2345,
+    "comments": 25,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+
+  {
+    "_id": 235,
+    "topic": "Tesla",
+    "userName": "Tesla",
+    "time": "4h",
+    "title": "Future of Driving",
+    "contentTitle": "Driverless Car",
+    "image": "/images/tesla.png",
+    "liked": false,
+    "replies": 56,
+    "retuits": 25,
+    "reshares": 4,
+    "likes": 845,
+    "comments": 12,
+    "handle": "@tesla",
+    "tuit": "Tesla's Autopilot AI team drives the future of autonomy of current and new generations of vehicles. Learn about the team and apply to help accelerate the world with full self-driving."
+  }
+]

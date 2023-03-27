@@ -1,0 +1,13 @@
+[{
+  "name": "Elon Musk",
+  "handle": "eMusk",
+  "profilePicture": "/images/elonavatar.jpg",
+  "bannerPicture": "/images/elonmuskPost.jpg",
+  "bio": "Cofounded the electronic payment firm PayPal, and in 2002 he founded SpaceX, a company that makes rockets and spacecraft",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "1998-03-21",
+  "dateJoined": "April 2009",
+  "followingCount": 312,
+  "followersCount": 180
+}]
