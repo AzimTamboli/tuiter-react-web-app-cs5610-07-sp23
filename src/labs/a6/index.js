@@ -6,11 +6,12 @@ import ConditionalOutput
 
 import TodoList from './todo/todo-list'
 import PostSummaryItem from "../../tuiter/post-summary-list";
+import '../../tuiter/css/index.css';
 function Assignment6() {
     return (
         <div>
             <Nav/>
-            <h1>Assignment 6</h1>
+            <h1 className={"wd-text-color-black"}>Assignment 6</h1>
             <ConditionalOutput/>
             <Styles/>
             <Classes/>
