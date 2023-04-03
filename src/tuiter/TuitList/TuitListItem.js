@@ -1,12 +1,13 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "../TuitStat";
 import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitListItem = ({tuit}) => {
     const dispatch = useDispatch();
 
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
