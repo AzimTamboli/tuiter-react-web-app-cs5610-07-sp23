@@ -10,7 +10,6 @@ import '../../tuiter/css/index.css';
 function Assignment6() {
     return (
         <div>
-            <Nav/>
             <h1 className={"wd-text-color-black"}>Assignment 6</h1>
             <ConditionalOutput/>
             <Styles/>
