@@ -26,9 +26,7 @@ const TuitStats = ({tuit}) => {
                                style={{color: 'red'}}></i>
                         }
                         {
-                            !tuit.liked &&
-                            <i onClick={() => dispatch(updateTuitThunk({...tuit,likes: tuit.likes + 1}))}
-                                className="me-2 fa-solid fa-heart"></i>
+
                         }
                         {tuit && tuit.likes}
                     </span>

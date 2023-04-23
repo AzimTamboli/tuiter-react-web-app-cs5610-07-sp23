@@ -11,9 +11,20 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
-            tuit: whatsHappening
+            tuit: whatsHappening,
+            image: '/images/nasa.png',
+            handle: "@nasa",
+            time: "1min",
+            title: "Mars is the mission",
+            likes: 0,
+            liked: true,
+            replies: 0,
+            retuits: 0,
+            username: "Nasa",
+            comments: 0
         }
         dispatch(createTuitThunk(newTuit));
+        setWhatsHappening('');
     }
     return (
         <div className="row">
@@ -21,10 +32,10 @@ const WhatsHappening = () => {
                 <img src="/images/nasa.png" width={60}/>
             </div>
             <div className="col-10">
-       <textarea value={whatsHappening} placeholder="What's happening?"
-                 className="form-control border-0"
-                 onChange={(event) => setWhatsHappening(event.target.value)}>
-       </textarea>
+                <textarea value={whatsHappening} placeholder="What's happening?"
+                         className="form-control border-0"
+                         onChange={(event) => {console.log(event.target.value);setWhatsHappening(event.target.value)}}>
+                </textarea>
                 <div>
                     <button className="rounded-pill btn btn-primary float-end mt-2 ps-3 pe-3 fw-bold"
                             onClick={tuitClickHandler}>
