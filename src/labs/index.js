@@ -6,6 +6,7 @@ import Assignment7 from "./a7";
 function Labs() {
     return(
         <div>
+
             <Nav/>
             <Routes>
                 <Route index
